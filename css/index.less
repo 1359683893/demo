@@ -1,0 +1,54 @@
+/*
+* UI假定为640px,
+* 将UI人为划分成若干(例如20份),每份为32px
+*/
+
+
+
+/*轮播图*/
+.carouselBottom{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    .bottomItem{
+        width: 232px;
+        color: #fff;
+        font-size: 18px;
+        border-left: 1px solid;
+        border-color: rgba(255,255,255,0.2);
+        &:hover{
+            text-decoration: none;
+            background:green;
+        }
+        img{
+            width: 46px;
+            height: 46px;
+            display: inline;
+            margin:0 16px 0 16px;
+        }
+    } 
+    .border_r{
+        border-right: 1px solid;
+        border-color: rgba(255,255,255,0.2);
+    }
+}
+
+
+/*PC端*/
+@media (min-width: 1200px){
+  .container {
+    width: 1200px;
+  }  
+}
+
+@media screen and (min-width: 768px){
+    .carousel-indicators {
+        bottom: 70px;
+    }
+}
+

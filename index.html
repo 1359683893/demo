@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>白鹿科技-egret</title>
+        <link rel="stylesheet icon" type="text/css" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+    <!--导航-->
+    <nav class="navbar navbar-default menu">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/logo.png"  alt="" /></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav hidden-md hidden-sm hidden-xs pc-nav" >
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">解决方案</a></li>
+        <li><a href="#">开发者中心</a></li>
+        <li><a href="#">案例</a></li>
+        <li><a href="#">众包平台</a></li>
+        <li><a href="#">教育</a></li>
+        <li><a href="#">广告</a></li>
+        <li><a href="#">区块链实验室</a></li>
+        <li><a href="#">社区</a></li>
+        <li><a href="#">关于我们</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav hidden-lg visible-sm-12 visible-md-12 hidden-xs">
+        <li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="#">解决方案</a></li>
+        <li><a href="#">开发者中心</a></li>
+        <li><a href="#">案例</a></li>
+        <li><a href="#">众包平台</a></li>
+        <li><a href="#">教育</a></li>
+        <li><a href="#">关于我们</a></li>
+      </ul> 
+    </div>
+  </div>
+</nav>
+    <!--轮播图-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+          <!-- 轮播项目 -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/kv1.jpg"  alt="">
+            </div>
+            <div class="item">
+               <img src="images/kv2.jpg"  alt="">
+            </div>
+            <div class="item">
+               <img src="images/kv3.jpg"  alt="">
+            </div>
+          </div>
+
+          <div class="carouselBottom hidden-xs hidden-sm">
+            <a href="#" class="bottomItem">
+              <img src="images/bottom1.png"  alt="" />
+              白鹭科技优势
+            </a>
+            <a href="#" class="bottomItem">
+              <img src="images/bottom2.png"  alt="" />
+              白鹭引擎服务
+            </a>
+            <a href="#" class="bottomItem">
+              <img src="images/bottom3.png"  alt="" />
+              游戏案例精选
+            </a>
+            <a href="#" class="bottomItem border_r">
+              <img src="images/bottom4.png"  alt="" />
+              开发者快速入门
+            </a>
+          </div> 
+    </div>
+    <!--内容区-->
+     <div class="con">
+      <!-- 白鹿引擎 -->
+      <div class="engine">
+        <div class="engine-tit">
+            <img src="images/pen.png"  alt="" />
+            <span>白鹭引擎</span>
+        </div>
+        <div class="engine-contain">
+          <h2 class="engine-h2">效率至上的一站式完整开发工作流</h2>
+          <p class="engineText">2D/3D双核心渲染，开发工具链闭环整合，全流程开发，由此开始</p>
+          <div class="engineImg">
+            <img src="images/engineLeft.png" class="engineLeft" alt="" />
+            <img src="images/h5.png"  alt="" />
+            <img src="images/ap.png"  alt="" />
+            <img src="images/fb.png"  alt="" />
+            <img src="images/an.png"  alt="" />
+            <img src="images/qz.png"  alt="" />
+            <img src="images/wx.png"  alt="" />
+            <img src="images/engineRight.png" class="engineRight" alt="" />
+        </div>
+        </div>
+        <div id="carousel-example-generic" class="carousel slide-color slide" >
+          <!-- 轮播图 -->
+          <div class="carousel-inner" >
+            <div class="item active">
+              <div class="engineImgContain">
+                <img src="images/engine1.png"  alt="">
+              </div> 
+            </div>
+            <div class="item">
+              <div class="engineImgContain">
+                <img src="images/engine2.png"  alt="">
+              </div>
+            </div>
+            <div class="item">
+              <div class="engineImgContain">
+                <img src="images/engine3.png"  alt="">
+              </div>
+            </div>
+          </div>
+    
+          <!-- 控制器 -->
+          <a class="left carousel-control hidden-sm hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          </a>
+          <a class="right carousel-control hidden-sm hidden-xs" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </div>
+      </div>
+      <!-- 案例推荐 -->
+       <div class="case">
+        <div class="engine-tit">
+            <img src="images/pen.png"  alt="" />
+            <span>案例推荐</span>
+            <a href="javascript:;" class="engine-titRight">查看更多</a>
+        </div>
+        <div class="case-con">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><img src="images/case1.jpg"  alt="" /></dt>
+                 <dd><p class="case-title">传奇来了</p></dd>
+                 <dd>
+                   <p class="case-text">微信小程序版还原经典传奇，采用无缝跨屏模式，画面清晰精致，打击感实足。游戏效果写实逼真，角色形象霸气十足！</p>
+                 </dd>
+              </dl>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><img src="images/case2.png"  alt="" /></dt>
+                 <dd><p class="case-title">女皇陛下</p></dd>
+                 <dd>
+                   <p class="case-text">后宫美男恋爱养成游戏，以历史美男收集，角色换装为主展开宫廷恋爱之旅，兼具古典唯美的画风和丰富的游戏剧情！</p>
+                 </dd>
+              </dl>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><img src="images/case3.jpg"  alt="" /></dt>
+                 <dd><p class="case-title">海盗来了</p></dd>
+                 <dd>
+                   <p class="case-text">以海盗为题材的社交类小游戏，玩家可以通过转盘获得金币和道具建造属于自己的海岛，探索新的世界，结交新的朋友！</p>
+                 </dd>
+              </dl>
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><img src="images/case4.jpg"  alt="" /></dt>
+                 <dd><p class="case-title">时光幻境</p></dd>
+                 <dd>
+                   <p class="case-text">史诗级魔幻手游，多人同屏真实PK。神秘的魔幻大陆上，有造型华丽的不同种族，也有举世无双的惊世神兵！</p>
+                 </dd>
+              </dl>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><img src="images/case5.png"  alt="" /></dt>
+                 <dd><p class="case-title">梦道</p></dd>
+                 <dd>
+                   <p class="case-text">以仙侣、宠物、酷炫造型为特色的回合制挂置游戏。浓郁的仙侠气息，酷炫的坐骑与翅膀系统！好礼相送，快人一步！</p>
+                 </dd>
+              </dl>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><img src="images/case6.jpg"  alt="" /></dt>
+                 <dd><p class="case-title">幸福厨房</p></dd>
+                 <dd>
+                   <p class="case-text">腾讯独代的趣味经营社交游戏，玩家可根据菜谱烹制菜品，经营饭店，收集生活百感，品尝好友的美食，与好友交换食材。</p>
+                 </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <!-- 新闻动态 -->
+       <div class="case">
+        <div class="engine-tit">
+            <img src="images/pen.png"  alt="" />
+            <span>案例推荐</span>
+            <a href="javascript:;" class="engine-titRight">查看更多</a>
+        </div>
+        <div class="case-con news-con">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><a href="#"><img src="images/news1.jpg"  alt="" /></a> </dt>
+                 <dd>
+                    <a class="case-title news-title">Egret3D正式版发布，为开发者带来诸多改进</a>
+                 </dd>
+                 
+              </dl>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><a href="#"><img src="images/news2.jpg"  alt="" /></a> </dt>
+                 <dd><a class="case-title news-title">砥砺前行，解读白鹭科技2018年上半年</a></dd>
+              </dl>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <dl>
+                 <dt><a href="#"><img src="images/news2.jpg"  alt="" /></a> </dt>
+                 <dd>
+                  <a class="case-title news-title">
+                    聚人才畅谈小游戏发展机遇，2018白鹭HTML5开发者沙龙武汉站干货再升级</a>
+                </dd>
+              </dl>
+            </div>
+          </div>
+           
+        </div>
+      </div> 
+      <!-- 技术博客 -->
+      <div class="blog">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="engine-tit">
+              <img src="images/pen.png"  alt="" />
+              <span>技术博客</span>
+              <a href="javascript:;" class="engine-titRight">查看更多</a>
+          </div>
+          <!-- 轮播项目 -->
+          <div class="blogContain">
+              <div id="carousel-example-generic" class="carousel carousel-blog slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <div class="blog-item">
+                    <div class="blog-left"><img src="images/blog1.jpg" alt="" /></div>
+                    <div class="blog-right">
+                      <div class="blogTitle">菜鸟丨Egret场景切换管理类切换和单例使用方法</div>
+                      <p class="blogText">场景切换是很多开发者在开发过程中必不可少的一个环节，当项目中有两个或两个以上的游戏场景时，怎样管理这些场景，能够使它们之间的切换更加方便呢？今天就为大家介绍场景切换管理类的切换方法和单例的使用方法。</p>
+                      <a href="javascript:;" class="blog-detail">详细</a>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <div class="blog-item">
+                    <div class="blog-left"><img src="images/blog2.jpg" alt="" /></div>
+                    <div class="blog-right">
+                      <div class="blogTitle">菜鸟丨2D骨骼动画工具DragonBones的使用教程</div>
+                      <p class="blogText">怎样用更少的美术成本创造出更生动的动画效果？今天就为大家介绍一套开源的2D骨骼动画框架和工具——DragonBones的常用术语和使用方法。DragonBones包含桌面骨骼动画制作工具DragonBonesPro和一套多语言版本的DragonBones骨骼动画库。</p>
+                      <a href="javascript:;" class="blog-detail">详细</a>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <div class="blog-item">
+                    <div class="blog-left"><img src="images/blog3.jpg" alt="" /></div>
+                    <div class="blog-right">
+                      <div class="blogTitle">Egret3D 1.2发布，编辑器内测版同步上线</div>
+                      <p class="blogText">10月8日，Egret3D 版本更新至 1.2 版本，本次更新重点解决以下问题：1、通过模块化分离，降低引擎体积和内部耦合性；2、动画系统支持更多高级特性；3、通过 Egret3D Inspector 和 Egret3D Editor（代号：Paper） 提升 3D 游戏的开发效率。</p>
+                      <a href="javascript:;" class="blog-detail">详细</a>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <div class="blog-item">
+                    <div class="blog-left"><img src="images/blog5.jpg" alt="" /></div>
+                    <div class="blog-right">
+                      <div class="blogTitle">使用P2物理引擎制作物理小球</div>
+                      <p class="blogText">今天分享的内容是：基于Egret使用P2物理引擎实现物理小球示例效果。了解更多信息，您可以查看P2物理引擎GitHub地址或者是EgretP2物理系统文档。</p>
+                      <a href="javascript:;" class="blog-detail">详细</a>
+                    </div>
+                  </div> 
+                </div>
+                <div class="item">
+                  <div class="blog-item">
+                    <div class="blog-left"><img src="images/blog3.jpg" alt="" /></div>
+                    <div class="blog-right">
+                      <div class="blogTitle">Egret3D 1.2发布，编辑器内测版同步上线</div>
+                      <p class="blogText">10月8日，Egret3D 版本更新至 1.2 版本，本次更新重点解决以下问题：1、通过模块化分离，降低引擎体积和内部耦合性；2、动画系统支持更多高级特性；3、通过 Egret3D Inspector 和 Egret3D Editor（代号：Paper） 提升 3D 游戏的开发效率。</p>
+                      <a href="javascript:;" class="blog-detail">详细</a>
+                    </div>
+                  </div> 
+                </div>
+                <!-- 技术博客时间 -->
+                <div class="blogBottom">
+                  <img class="line" src="images/line.png" alt="" />
+                  <img class="arrowBtn left" src="images/blogLeft.png" alt="" />
+                  <span class="blogTime">2018年10月18日</span>
+                  <img class="arrowBtn right" src="images/blogRight.png" alt="" />
+                  <img class="line" src="images/line.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 轮播项目 -->
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <div class="engine-tit">
+              <img src="images/pen.png"  alt="" />
+              <span>社区热帖</span>
+              <a href="javascript:;" class="engine-titRight">查看更多</a>
+          </div>
+         <!--  社区热帖 -->
+          <div class="postContain">
+            <ul class="containUl">
+              <li><a href="javascript:;">矩形区域的碰撞检测</a> </li>
+              <li><a href="javascript:;">微信小游戏中第三方库报错解决合集</a></li>
+              <li><a href="javascript:;">【新手教程2】EUI卡牌游戏的制作全过程</a> </li>
+              <li><a href="javascript:;">游戏开发指南文档，适合新人</a></li>
+              <li><a href="javascript:;">Egret精品案例系列教程</a> </li>
+            </ul>
+          </div>
+          <!-- 社区热帖 -->
+        </div>
+      </div> 
+      <!-- 白鹿引擎 -->
+    </div> 
+    <!--友情链接-->
+     <div class="linkWarp">
+      <div class="link">
+        <div class="engine-tit">
+              <img src="images/pen.png"  alt="" />
+              <span>友情链接</span>
+        </div>
+        <div class="row cooperations"> 
+          <div class="cooperationItem col-md-2 col-sm-3 col-xs-6"> 
+            <img src="uploads/google.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3 col-xs-6"> 
+            <img src="uploads/apple.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3 col-xs-6"> 
+            <img src="uploads/ms.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3 col-xs-6"> 
+            <img src="uploads/tc.png" alt=""> 
+          </div> 
+          <div class="cooperationItem col-md-2 col-sm-3 col-xs-6"> 
+            <img src="uploads/mi.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3 col-xs-6"> 
+            <img src="uploads/we.png" alt=""> 
+          </div> 
+        </div>
+        <!-- <div class="cooperations"> 
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/k.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/apus.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/fbc.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/tap.png" alt=""> 
+          </div> 
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/yz.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/cu.png" alt=""> 
+          </div> 
+        </div>  -->
+        <!-- <div class="cooperations"> 
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/kun.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/360.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/lie.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/ya.png" alt=""> 
+          </div> 
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/baidu.png" alt=""> 
+          </div>
+          <div class="cooperationItem col-md-2 col-sm-3"> 
+            <img src="uploads/oppo.png" alt=""> 
+          </div> 
+        </div> -->
+      </div>
+    </div>
+    <!--底部版权信息-->
+     <div class="foot"> 
+        <div class="pcFooter hidden-lg-12 hidden-xs hidden-md hidden-sm"> 
+          <div class="footerNew" > 
+            <div class="footerLeft"> 
+              <a href="javascript:;">关于我们</a> 
+              <a href="javascript:;">产品下载</a> 
+              <a href="javascript:;">技术支持</a> 
+              <a href="javascript:;">商务合作</a> 
+              <a href="javascript:;">加入我们</a> 
+          </div> 
+            <div class="footerRight"> 
+              <div class="imgContain"> 
+                <span> <img src="uploads/qq.png" alt="">  </span> 
+                <span> <img src="uploads/wxf.png" alt="">  </span> 
+                <a href="javascript:;"> <img src="uploads/sina.png" alt=""> </a> 
+                <span> <img src="uploads/zhi.png" alt="">  </span> 
+              </div> 
+                <div class="email">邮箱：bd@egret.com</div> 
+              </div> 
+            </div> 
+            <div class="bottomInfo">
+                Copyright © 2014-2018 egret.com 京网文[2014]0791-191号 京ICP备14025619号-2 京ICP证150115号 京公网安备11010502027089
+            </div> 
+          </div> 
+        <div class="mobileFooter hidden-lg visible-xs-12 hidden-md hidden-sm" > 
+          <div class="mobFooterInf"> 
+            <div class="mobList"> 
+              <a href="javascript:;">关于我们</a> 
+              <a href="javascript:;">产品下载</a> 
+              <a href="javascript:;">技术支持</a> 
+              <a href="javascript:;">商务合作</a> 
+              <a href="javascript:;">加入我们</a> 
+            </div> 
+            <div class="mobEmail">
+                联系电话：010-65505713
+            </div> 
+            <div class="mobEmail" style="margin-top: 0.88rem">
+                商务合作：BD@egret.com
+            </div>
+            <div class="mobEmail" style="margin-top: 0.88rem">
+                市场合作：Marketing@egret.com
+            </div> 
+          </div> 
+        </div>  
+    </div > 
+    <!--友情链接-->
+    <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    </body>
+</html>
+
+
+
+
+
